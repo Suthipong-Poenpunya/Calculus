@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor
+.claude/
+.gemini/
+*.code-workspace
+
+# Logs
+*.log
+
+# Ignore everything in the root by default
+/*
+
+# Except the main app folder
+!/calculus-app/
+
+# Except the static build files we need for GitHub Pages
+!/index.html
+!/assets/
+!/favicon.svg
+!/icons.svg
+!/.nojekyll
+
+# Except this .gitignore file itself
+!/.gitignore
